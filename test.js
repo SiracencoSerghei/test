@@ -3949,4 +3949,12 @@
 // console.log(recordCollection)
 
 // --------------------------------------------
+// const list = ['banana'];
+// function addToList(item, list) {
+//   return list.push(item);
+// }
+// const result = addToList("apple",list);
+// console.log(result);
+// console.log(list);
 
+// --------------------------------------
