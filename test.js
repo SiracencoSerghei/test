@@ -14,7 +14,6 @@
 //   console.log(book.public); // false
 //   console.log(book.genres); // ["historical prose", "adventure", "drama"]
 
-
 // const book = {
 //   title: "The Last Kingdom",
 //   author: "Bernard Cornwell",
@@ -28,8 +27,6 @@
 //   // Значение свойства с таким ключом
 //   console.log(book[key]);
 // }
-
-
 
 // const book = {
 //   author: "Bernard Cornwell",
@@ -45,8 +42,6 @@
 //   console.log(book[key]);
 // }
 
-
-
 // const apartment = {
 //   descr: "Spacious apartment in the city center",
 //   rating: 4,
@@ -61,7 +56,6 @@
 // }
 // console.log(keys);
 // console.log(values);
-
 
 // const keys = [];
 // const values = [];
@@ -80,11 +74,9 @@
 //   values.push(apartment[key]);
 // }
 
-
 // }
 // console.log(keys);
 // console.log(values);
-
 
 // const apartment = {
 //   descr: "Spacious apartment in the city center",
@@ -132,12 +124,7 @@
 
 // return propCount;
 
-
-
 // -------------------------------------
-
-
-
 
 // -------------------------------------------
 // const object1 = {
@@ -151,12 +138,6 @@
 // -----------------
 // expected output: Array ["a", "b", "c"]
 // ----------------------------------------
-
-
-
-
-
-
 
 // function countProps(object) {
 // Change code below this line
@@ -190,7 +171,6 @@
 // }
 // console.log(countProps());
 
-
 // const prop = {
 //   mail: "poly@mail.com",
 //   isOnline: true,
@@ -201,7 +181,6 @@
 // function countProps(object) {
 //   // Change code below this line
 //   let propCount = 0;
-
 
 //   let propObjectKeys = Object.keys(object);
 //   for (const key of propObjectKeys) {
@@ -223,10 +202,8 @@
 //   }
 // console.log(countProps(prop));
 
-
 // const salaries = { mango: 100, poly: 150, alfred: 80 };
 // const salaries = { kiwi: 200, poly: 50, ajax: 150 };
-
 
 // function countTotalSalary(salaries) {
 //   let totalSalary = 0;
@@ -239,7 +216,6 @@
 //   return totalSalary;
 // }
 // console.log(countTotalSalary(salaries));
-
 
 // const book = {
 //   title: "The Last Kingdom",
@@ -285,11 +261,6 @@
 //   console.log(book.rating);
 // }
 
-
-
-
-
-
 // const colors = [
 //   { hex: "#f44336", rgb: "244,67,54" },
 //   { hex: "#2196f3", rgb: "33,150,243" },
@@ -304,26 +275,25 @@
 // for (let color of colors) {
 //   hexColors.push(color.hex);
 //   rgbColors.push(color.rgb);
- 
+
 // }
 
 // console.log(hexColors, rgbColors);
 
 // -------------------------------
 
-// Напишіть код, який запитуватиме 
+// Напишіть код, який запитуватиме
 // логін за допомогою prompt і буде виводити результат
- // в консоль браузера 
- // Якщо користувач вводить "Admin", 
- // то prompt запитує пароль.
- // Якщо нічого не ввели або натиснута клавіша Esc
-  // вивести рядок "Cancel" 
-  // Інакше вивести рядок "I don't know you" 
-  //Пароль перевіряти так: 
-  // Якщо введено пароль "I am admin", 
-  // то вивести рядок "Hello!" 
-// інакше виводити рядок "Wrong password!" 
-
+// в консоль браузера
+// Якщо користувач вводить "Admin",
+// то prompt запитує пароль.
+// Якщо нічого не ввели або натиснута клавіша Esc
+// вивести рядок "Cancel"
+// Інакше вивести рядок "I don't know you"
+//Пароль перевіряти так:
+// Якщо введено пароль "I am admin",
+// то вивести рядок "Hello!"
+// інакше виводити рядок "Wrong password!"
 
 // const login = prompt('Enter login');
 
@@ -332,28 +302,24 @@
 // }
 // else if (login === 'Admin') {
 //       const password = prompt('Enter password');
-//       if password = 
+//       if password =
 // }
-
 
 // -----------------------------
 // const minutes = 35; // У змінній minutes лежить число // Визначте, в яку чверть години потрапляє
- // це число(у першу, другу, третю чи четверту). 
+// це число(у першу, другу, третю чи четверту).
 
 //  const minutes = 35;
 
 //  if (minutes > 0 && minutes < 15)
 
-// const minutes = 25; if (minutes > 45) { console.log(' 4 quoter'); } else if (minutes > 30) { console.log(' 3 quoter'); } else if (minutes > 15) { console.log(' 2 quoter'); } else console.log(' 1 quoter'); 
+// const minutes = 25; if (minutes > 45) { console.log(' 4 quoter'); } else if (minutes > 30) { console.log(' 3 quoter'); } else if (minutes > 15) { console.log(' 2 quoter'); } else console.log(' 1 quoter');
 
 // --------------------
 
-
-// // Напишіть через світч пошук автора мови програмування // Пишемо назву мови у шаблонному рядку отримує відповідь: мова та автор // PHP Расмус Лердорф // C# група інженерів компанії Microsoft під керівництвом Андерса Хейлсберга та Скотта Вільтаумота // Swift Кріс Латтнер // JS Брендан Ейх // Java Джеймс Гослінг // Python Гвідо ван Россум 
-
+// // Напишіть через світч пошук автора мови програмування // Пишемо назву мови у шаблонному рядку отримує відповідь: мова та автор // PHP Расмус Лердорф // C# група інженерів компанії Microsoft під керівництвом Андерса Хейлсберга та Скотта Вільтаумота // Swift Кріс Латтнер // JS Брендан Ейх // Java Джеймс Гослінг // Python Гвідо ван Россум
 
 // const lang = prompt('Enter language: ')?.toLowerCase();
-
 
 // switch(lang) {
 //   case 'php' :
@@ -371,10 +337,10 @@
 // }
 // -------------------
 
-//Напишіть цикл, який виводить у консоль //1. числа від max до min за спаданням //2. Виведіть у консоль усіх парні числа від min до max //3. За допомогою циклу for додайте всі парні числа від min до max 
+//Напишіть цикл, який виводить у консоль //1. числа від max до min за спаданням //2. Виведіть у консоль усіх парні числа від min до max //3. За допомогою циклу for додайте всі парні числа від min до max
 
 // const max = 90;
-//  const min = 33; 
+//  const min = 33;
 
 // //  for(let i = max; i >= min; i -= 1) {
 // //   console.log(i);
@@ -392,7 +358,7 @@
 // console.log(total);
 
 // -------------------------------
-// Напишіть цикл, який пропонує ввести // число більше 100 через prompt. // Якщо користувач ввів інше число - попросити // ввести ще раз і так далі. // Цикл повинен запитувати число, поки користувач не // введе число більше 100, або натисне кнопку // Скасування в prompt 
+// Напишіть цикл, який пропонує ввести // число більше 100 через prompt. // Якщо користувач ввів інше число - попросити // ввести ще раз і так далі. // Цикл повинен запитувати число, поки користувач не // введе число більше 100, або натисне кнопку // Скасування в prompt
 
 // let userInput = prompt("Num:");
 
@@ -402,28 +368,22 @@
 // break;
 // }
 // userInput = prompt("Try again");
-// } 
+// }
 
 // ----------------------------
 
-
-// Введіть рядок в prompt // Виведіть кількість голосних букв в цьому рядку 
-
-
-
-
+// Введіть рядок в prompt // Виведіть кількість голосних букв в цьому рядку
 
 // ------------------------
 
-// При завантаженні сторінки користувачеві пропонується 
-// в prompt ввести число. Після введення число додається до значення змінної total. 
- // Операція введення числа продовжується доти, 
- // поки користувач не натисне кнопку Cancel в prompt. 
- // Після того як користувач припинив введення, натиснувши на 
- // кнопку Cancel, показати console.log з рядком "Загальна сума введених чисел дорівнює [число]." 
- // Зробити перевірку, що користувач ввів саме число, 
- // а не довільний набір символів. 
-
+// При завантаженні сторінки користувачеві пропонується
+// в prompt ввести число. Після введення число додається до значення змінної total.
+// Операція введення числа продовжується доти,
+// поки користувач не натисне кнопку Cancel в prompt.
+// Після того як користувач припинив введення, натиснувши на
+// кнопку Cancel, показати console.log з рядком "Загальна сума введених чисел дорівнює [число]."
+// Зробити перевірку, що користувач ввів саме число,
+// а не довільний набір символів.
 
 //  let total = 0;
 //  do {
@@ -441,7 +401,7 @@
 
 // ----------------------------
 
-// Напишіть функцію min(a,b), // яка повертає найменше з чисел a та b. // Приклад викликів: // // min(2, 5) == 2 // min(3, -1) == -1 // min(1, 1) == 1 
+// Напишіть функцію min(a,b), // яка повертає найменше з чисел a та b. // Приклад викликів: // // min(2, 5) == 2 // min(3, -1) == -1 // min(1, 1) == 1
 
 // function min(a, b) {
 //   // if (a > b) {
@@ -456,7 +416,7 @@
 // console.log(min(5, 10));
 
 // ---------------------------
-// За кожен місяць податкова нараховує на ЗП розробника 5% від суми. // Напишіть консольну функцію, на яку користувач вводить суму зп // і кількість місяців з допомогою prompt() не забуваємо, що промпт повертає рядок. // А податкова обчислює кінцеву суму зп без податків, // Суму податків всього і чистий дохід розробника за кожен місяць. // Для обчислення суми з урахуванням відсотків використовуйте цикл for. 
+// За кожен місяць податкова нараховує на ЗП розробника 5% від суми. // Напишіть консольну функцію, на яку користувач вводить суму зп // і кількість місяців з допомогою prompt() не забуваємо, що промпт повертає рядок. // А податкова обчислює кінцеву суму зп без податків, // Суму податків всього і чистий дохід розробника за кожен місяць. // Для обчислення суми з урахуванням відсотків використовуйте цикл for.
 
 // const salary = 1000;
 // const mounthes = 3;
@@ -468,7 +428,6 @@
 //  pureSalary += salary *(100 - tax)/100;
 //  sumTax += salary * tax / 100;
 // }
-
 
 // console.log('Salary Netto: ', pureSalary);
 // console.log('sum of tax: ', sumTax);
@@ -486,17 +445,16 @@
 //   for (const key of products) {
 //     if (key.name === productName) {
 //       return key.price;
-//     } 
+//     }
 //   }
 //     return null;
 //   }
 
-
-// console.log(getProductPrice('Grip')); 
+// console.log(getProductPrice('Grip'));
 // ---------------------------------
 
 // for (let key of products) {
-  
+
 // }
 // if (typeof products['key'] !== "undefined") {
 // //ключ есть
@@ -549,10 +507,7 @@
 // console.log(userViews); // 4827
 // console.log(userLikes); // 1308
 
-
 // ------------------------------------------
-
-
 
 // // Change code below this line
 // function calculateMeanTemperature(forecast) {
@@ -571,8 +526,6 @@
 
 // ---------------------------------------------
 
-
-
 // Change code below this line
 // function calculateMeanTemperature({ today: { low: todayLow, high: todayHigh }, tomorrow: { low: tomorrowLow, high: tomorrowHigh } }) {
 
@@ -581,14 +534,12 @@
 //   // const tomorrowLow = forecast.tomorrow.low;
 //   // const tomorrowHigh = forecast.tomorrow.high;
 
-
 //   // Change code above this line
 //   return (todayLow + todayHigh + tomorrowLow + tomorrowHigh) / 4;
 // }
 // console.log(calculateMeanTemperature({ today: {low: 28, high: 32}, tomorrow: {low: 25, high: 29} }));
 // calculateMeanTemperature({ today: {low: 28, high: 32}, tomorrow: {low: 25, high: 29} });
 // console.log(calculateMeanTemperature({ today: {low: 37, high: 40}, tomorrow: {low: 33, high: 38} }));
-
 
 // ----------------------------------
 
@@ -604,9 +555,7 @@
 // // ✅ Распылим коллекцию элементов как отдельные аргументы
 // console.log(Math.max(...temps)); // 25
 
-
 // ----------------------------------------------
-
 
 // const scores = [89, 64, 42, 17, 93, 51, 26];
 // // Change code below this line
@@ -616,9 +565,7 @@
 // console.log(bestScore);
 // console.log(worstScore);
 
-
 // -----------------------------
-
 
 // const temps = [14, -4, 25, 8, 11];
 
@@ -631,9 +578,7 @@
 // const allTemps = [...lastWeekTemps, ...currentWeekTemps];
 // console.log(allTemps); // [14, 25, 11, 23, 17, 18]
 
-
 // --------------------------------------
-
 
 // const firstGroupScores = [64, 42, 93];
 // const secondGroupScores = [89, 14, 51, 26];
@@ -673,9 +618,7 @@
 // // Change code below this line
 // const finalSettings = { ...defaultSettings, ...overrideSettings};
 
-
 // ---------------------------------------
-
 
 // function makeTask(data) {
 //   const completed = false;
@@ -683,7 +626,7 @@
 //   const priority = "Normal";
 
 // return { ...{ category, priority, completed }, ...data };
- 
+
 // }
 // console.log(makeTask({ priority: 'Low', text: 'Choose shampoo' }));
 
@@ -693,18 +636,17 @@
 
 // Change code below this line
 
-
 // -------- 1 variant-----------
 // function addOverNum(minArg, ...args) {
 //   let total = 0;
-  // for (const arg of args) {
-    
-    // if (arg > minArg) {
-    //   total += arg;
-    // }    
-  // }
-  // return total;
-  // Change code above this line
+// for (const arg of args) {
+
+// if (arg > minArg) {
+//   total += arg;
+// }
+// }
+// return total;
+// Change code above this line
 // }
 // -------- 2 variant-------
 
@@ -712,18 +654,14 @@
 
 //----------variant 3-------Вариант от Grundy с преобразованием true в 1, а false в 0:-------------
 
-
 // const addOverNum = (one, ...args) => args.reduce((sum, el) => sum + (el > one) * el, 0);
-
 
 // console.log(addOverNum(50, 15, 27));
 // console.log(addOverNum(10, 12, 4, 11, 48, 10, 8));
 // console.log(addOverNum(15, 32, 6, 13, 19, 8));
 // console.log(addOverNum(20, 74, 11, 62, 46, 12, 36));
 
-
 // ---modul 3-------33/41--------------------------------
-
 
 // function findMatches([], ...nums) {
 //   let matches = [];
@@ -743,11 +681,9 @@
 //   return nums.filter(num => arr.includes(num));
 // }
 
-
 // function findMatches(arr, ...nums) {
 //   return nums.filter(num => arr.includes(num));
 // }
-
 
 // console.log(findMatches([1, 2, 3, 4, 5], 1, 8, 2, 7));
 // console.log(findMatches([4, 89, 17, 36, 2], 8, 17, 89, 27, 2));
@@ -772,7 +708,6 @@
 //   },
 // };
 // You could also add these methods to the object by using the object.assign method
-
 
 // const bookShelf = {
 //   books: ["The last kingdom", "The guardian of dreams"],
@@ -801,7 +736,6 @@
 // console.log(bookShelf);
 
 // --------module 3-----35/41----------------
-
 
 // const bookShelf = {
 //   books: ["The last kingdom", "Haze", "The guardian of dreams"],
@@ -835,7 +769,6 @@
 // bookShelf.updateBook("The last kingdom", "Dune");
 // console.log(bookShelf.books);
 
-
 // -----module 3----36/41-----------------------------
 
 // const atTheOldToad = {
@@ -852,7 +785,6 @@
 
 // console.log(atTheOldToad);
 
-
 // -------------module 3---- 37/41-------
 
 // const atTheOldToad = {
@@ -860,11 +792,11 @@
 //   getPotions() {
 //   // Change code below this line
 // // Дело в том, что имя объекта штука не надежная, методы одного объекта можно копировать в другой (с другим именем), а в будущем узнаем, что часто, при создании объекта мы заранее вовсе не знаем имени.
-  
+
 //   // return atTheOldToad.potions;
-  
+
 //   //  Использование this гарантирует, что метод работает именно с тем объектом, который его вызвал
-  
+
 //   return this.potions;
 // },
 //   // Change code above this line
@@ -872,9 +804,7 @@
 // atTheOldToad.getPotions();
 // console.log(atTheOldToad.getPotions());
 
-
 // --------------module 3---------38/41---------
-
 
 // const atTheOldToad = {
 //   potions: ["Speed potion", "Dragon breath", "Stone skin"],
@@ -889,8 +819,6 @@
 // console.log(atTheOldToad.potions);
 // atTheOldToad.addPotion("Power potion");
 // console.log(atTheOldToad.potions);
-
-
 
 // -----------module 3-------39/41---------------
 
@@ -913,7 +841,6 @@
 // atTheOldToad.removePotion("Speed potion");
 // console.log(atTheOldToad.potions);
 
-
 // ----------module 3------40/41-------
 
 // const atTheOldToad = {
@@ -934,9 +861,7 @@
 // atTheOldToad.updatePotionName("Stone skin", "Invisibility");
 // console.log(atTheOldToad.potions);
 
-
 // ----------module 3------- 41/41----------
-
 
 // const atTheOldToad = {
 //   potions: [
@@ -975,106 +900,100 @@
 //   },
 //   // Change code above this line
 // };
-      //  ----- new cod  --------------
+//  ----- new cod  --------------
 
-      // const atTheOldToad = {
-      //   potions: [
-      //     { name: "Speed potion", price: 460 },
-      //     { name: "Dragon breath", price: 780 },
-      //     { name: "Stone skin", price: 520 },
-      //   ],
-      //   // Change code below this line
-      //   getPotions() {
-      //     return this.potions;
-      //   },
-      //   addPotion(newPotion) {
-      //     for (let potion of this.potions) {
-      //       if (potion.name === newPotion.name) {
-      //         return alert(`Error! Potion ${newPotion.name} is already in your inventory!`);
-      //       }
-      //     }
-      //     this.potions.push(newPotion);
-      //   },
-      //   removePotion(potionName) {
-      //     for (let i = 0; i < this.potions.length; i++) {
-      //       if (this.potions[i].name === potionName) {
-      //         this.potions.splice(i, 1);
-      //         return;
-      //       }
-      //     }
-      //     return `Potion ${potionName} is not in inventory!`;
-      //   },
-      //   updatePotionName(oldName, newName) {
-      //     for (let i = 0; i < this.potions.length; i++) {
-      //       if (this.potions[i].name === oldName) {
-      //         this.potions[i].name = newName;
-      //         return;
-      //       }
-      //     }
-      //     return `Potion ${oldName} is not in inventory!`;
-      //   },
-      //   // Change code above this line
-      // };
+// const atTheOldToad = {
+//   potions: [
+//     { name: "Speed potion", price: 460 },
+//     { name: "Dragon breath", price: 780 },
+//     { name: "Stone skin", price: 520 },
+//   ],
+//   // Change code below this line
+//   getPotions() {
+//     return this.potions;
+//   },
+//   addPotion(newPotion) {
+//     for (let potion of this.potions) {
+//       if (potion.name === newPotion.name) {
+//         return alert(`Error! Potion ${newPotion.name} is already in your inventory!`);
+//       }
+//     }
+//     this.potions.push(newPotion);
+//   },
+//   removePotion(potionName) {
+//     for (let i = 0; i < this.potions.length; i++) {
+//       if (this.potions[i].name === potionName) {
+//         this.potions.splice(i, 1);
+//         return;
+//       }
+//     }
+//     return `Potion ${potionName} is not in inventory!`;
+//   },
+//   updatePotionName(oldName, newName) {
+//     for (let i = 0; i < this.potions.length; i++) {
+//       if (this.potions[i].name === oldName) {
+//         this.potions[i].name = newName;
+//         return;
+//       }
+//     }
+//     return `Potion ${oldName} is not in inventory!`;
+//   },
+//   // Change code above this line
+// };
 
-
-
-      // console.log(atTheOldToad.potions);
-      // atTheOldToad.getPotions();
-      // console.log(atTheOldToad.potions);
-      // atTheOldToad.addPotion({ name: "Invisibility", price: 620 });
-      // console.log(atTheOldToad.potions);
-      // atTheOldToad.addPotion({ name: "Power potion", price: 270 });
-      // console.log(atTheOldToad.potions);
-      // atTheOldToad.addPotion({ name: "Dragon breath", price: 700 });
-      // console.log(atTheOldToad.potions);
-      // atTheOldToad.addPotion({ name: "Stone skin", price: 240 });
-      // console.log(atTheOldToad.potions);
-      // atTheOldToad.addPotion({ name: "Dragon breath", price: 700 });
-      // console.log(atTheOldToad.potions);
-      // atTheOldToad.addPotion({ name: "Stone skin", price: 240 });
-      // console.log(atTheOldToad.potions);
-      // atTheOldToad.removePotion("Dragon breath");
-      // console.log(atTheOldToad.potions);
-      // atTheOldToad.removePotion("Speed potion");
-      // console.log(atTheOldToad.potions);
-      // atTheOldToad.updatePotionName("Dragon breath", "Polymorth");
-      // console.log(atTheOldToad.potions);
-      // atTheOldToad.updatePotionName("Stone skin", "Invulnerability potion");
-      // console.log(atTheOldToad.potions);
-
-
+// console.log(atTheOldToad.potions);
+// atTheOldToad.getPotions();
+// console.log(atTheOldToad.potions);
+// atTheOldToad.addPotion({ name: "Invisibility", price: 620 });
+// console.log(atTheOldToad.potions);
+// atTheOldToad.addPotion({ name: "Power potion", price: 270 });
+// console.log(atTheOldToad.potions);
+// atTheOldToad.addPotion({ name: "Dragon breath", price: 700 });
+// console.log(atTheOldToad.potions);
+// atTheOldToad.addPotion({ name: "Stone skin", price: 240 });
+// console.log(atTheOldToad.potions);
+// atTheOldToad.addPotion({ name: "Dragon breath", price: 700 });
+// console.log(atTheOldToad.potions);
+// atTheOldToad.addPotion({ name: "Stone skin", price: 240 });
+// console.log(atTheOldToad.potions);
+// atTheOldToad.removePotion("Dragon breath");
+// console.log(atTheOldToad.potions);
+// atTheOldToad.removePotion("Speed potion");
+// console.log(atTheOldToad.potions);
+// atTheOldToad.updatePotionName("Dragon breath", "Polymorth");
+// console.log(atTheOldToad.potions);
+// atTheOldToad.updatePotionName("Stone skin", "Invulnerability potion");
+// console.log(atTheOldToad.potions);
 
 // -----module 4-----1/48--
 // --------------function greet(name) {
-  // function greet(name) {
-  //   return `Добро пожаловать ${name}.`;
-  // }
-  
-  // // Вызываем функцию greet
-  // // и выводим результат в консоль
-  // console.log(greet("Mango"));
-  // // Добро пожаловать Mango.
-  
-  // // Выводим функцию greet
-  // // в консоль не вызывая её
-  // console.log(greet);
-  // /*
-  // ƒ greet() {
-  //      return `Добро пожаловать ${name}.`;
-  // }
-  // */
-  // function makePizza() {
-  //   return "Your pizza is being prepared, please wait.";
-  // }
-  // // Change code below this line
-  
-  // const result =  makePizza();
-  // const pointer =  makePizza;
-  // console.log(result, pointer);
+// function greet(name) {
+//   return `Добро пожаловать ${name}.`;
+// }
 
-  // --------module 4-----2/48--------------
+// // Вызываем функцию greet
+// // и выводим результат в консоль
+// console.log(greet("Mango"));
+// // Добро пожаловать Mango.
 
+// // Выводим функцию greet
+// // в консоль не вызывая её
+// console.log(greet);
+// /*
+// ƒ greet() {
+//      return `Добро пожаловать ${name}.`;
+// }
+// */
+// function makePizza() {
+//   return "Your pizza is being prepared, please wait.";
+// }
+// // Change code below this line
 
+// const result =  makePizza();
+// const pointer =  makePizza;
+// console.log(result, pointer);
+
+// --------module 4-----2/48--------------
 
 // //   // Колбэк-функция
 // // function greet(name) {
@@ -1099,13 +1018,11 @@
 
 // // Chande code below this line
 // function makeMessage(pizzaName, callback) {
-  
+
 //   return callback(pizzaName);
 // }
 
-
 // --------------------?????????   решить  --------------------
-
 
 // let userInput = prompt('Num:');
 // while (userInput < Number(100)) {
@@ -1117,12 +1034,7 @@
 //   userInput = prompt('Try again');
 // }
 
-
 // ---------------------------------
-
-
-
-
 
 // ---------------------------------
 
@@ -1136,7 +1048,7 @@
 
 // // Chande code below this line
 // function makeMessage(pizzaName, callback) {
-  
+
 //   return callback(pizzaName);
 // }
 
@@ -1148,7 +1060,6 @@
 // Напиши скрипт сортировки массива строк в алфавитном порядке по первой букве элемента.
 
 // const langs = ['python', 'javascript', 'c++', 'haskel', 'php', 'ruby'];
-
 
 // --------------------------
 
@@ -1163,82 +1074,77 @@
 //   }
 //   registerGuest("Манго", greet);
 
-  // ---------------module 4---3/48----------
+// ---------------module 4---3/48----------
 
-  // function makePizza(pizzaName, callback) {
-  //   console.log(`Pizza ${pizzaName} is being prepared, please wait...`);
-  //   callback(pizzaName);
-  // }
-  
-  // makePizza("Royal Grand", function deliverPizza(pizzaName) {
-  //   console.log(`Delivering pizza ${pizzaName}.`);
-  // });
-  // // Change code below this line
-  
-  // makePizza("Ultracheese", function eatPizza(pizzaName) {
-  // console.log(`Eating pizza ${pizzaName}`);
-  // });
-  
-  // тот же результат------------------
-  
-   // function makePizza(pizzaName, callback) {
-   //    console.log(`Pizza ${pizzaName} is being prepared, please wait...`);
-   //    callback(pizzaName);
-   //  }
-   
-   //  makePizza("Royal Grand", function deliverPizza(pizzaName) {
-   //    console.log(`Delivering pizza ${pizzaName}.`);
-   //  });
-   //  // // Change code below this line
-   //  function eatPizza(pizzaName) {
-   //    console.log(`Eating pizza ${pizzaName}`);
-   //  }
-   //  makePizza("Ultracheese", eatPizza);
+// function makePizza(pizzaName, callback) {
+//   console.log(`Pizza ${pizzaName} is being prepared, please wait...`);
+//   callback(pizzaName);
+// }
 
+// makePizza("Royal Grand", function deliverPizza(pizzaName) {
+//   console.log(`Delivering pizza ${pizzaName}.`);
+// });
+// // Change code below this line
 
+// makePizza("Ultracheese", function eatPizza(pizzaName) {
+// console.log(`Eating pizza ${pizzaName}`);
+// });
 
+// тот же результат------------------
 
-  // -exemple ---module 4------4/48---------
+// function makePizza(pizzaName, callback) {
+//    console.log(`Pizza ${pizzaName} is being prepared, please wait...`);
+//    callback(pizzaName);
+//  }
 
-  // function processCall(recipient, onAvailable, onNotAvailable) {
-  //   // Імітуємо доступність абонента випадковим числом
-  //   const isRecipientAvailable = Math.random() > 0.5;
-  
-  //   if (!isRecipientAvailable) {
-  //     onNotAvailable(recipient);
-  //     return;
-  //   }
-  
-  //   onAvailable(recipient);
-  // }
-  
-  // function takeCall(name) {
-  //   console.log(`З'єднуємо з ${name}, очікуйте...`);
-  //   // Логіка прийняття дзвінка
-  // }
-  
-  // function activateAnsweringMachine(name) {
-  //   console.log(`Абонент ${name} недоступний, залиште повідомлення.`);
-  //   // Логіка активації автовідповідача
-  // }
-  
-  // function leaveHoloMessage(name) {
-  //   console.log(`Абонент ${name} недоступний, записуємо голограму.`);
-  //   // Логіка запису голограми
-  // }
-  
-  // processCall("Mango", takeCall, activateAnsweringMachine);
-  // processCall("Poly", takeCall, leaveHoloMessage);
+//  makePizza("Royal Grand", function deliverPizza(pizzaName) {
+//    console.log(`Delivering pizza ${pizzaName}.`);
+//  });
+//  // // Change code below this line
+//  function eatPizza(pizzaName) {
+//    console.log(`Eating pizza ${pizzaName}`);
+//  }
+//  makePizza("Ultracheese", eatPizza);
 
-  // --------module 4------4/48------------
+// -exemple ---module 4------4/48---------
 
+// function processCall(recipient, onAvailable, onNotAvailable) {
+//   // Імітуємо доступність абонента випадковим числом
+//   const isRecipientAvailable = Math.random() > 0.5;
 
+//   if (!isRecipientAvailable) {
+//     onNotAvailable(recipient);
+//     return;
+//   }
 
-  // const pizzaPalace = {
-  //   pizzas: ["Ultracheese", "Smoked", "Four meats"],
-  //   order(pizzaName) {},
-  // };
-  // Change code above this line
+//   onAvailable(recipient);
+// }
+
+// function takeCall(name) {
+//   console.log(`З'єднуємо з ${name}, очікуйте...`);
+//   // Логіка прийняття дзвінка
+// }
+
+// function activateAnsweringMachine(name) {
+//   console.log(`Абонент ${name} недоступний, залиште повідомлення.`);
+//   // Логіка активації автовідповідача
+// }
+
+// function leaveHoloMessage(name) {
+//   console.log(`Абонент ${name} недоступний, записуємо голограму.`);
+//   // Логіка запису голограми
+// }
+
+// processCall("Mango", takeCall, activateAnsweringMachine);
+// processCall("Poly", takeCall, leaveHoloMessage);
+
+// --------module 4------4/48------------
+
+// const pizzaPalace = {
+//   pizzas: ["Ultracheese", "Smoked", "Four meats"],
+//   order(pizzaName) {},
+// };
+// Change code above this line
 
 // ---------var--1-------
 
@@ -1247,12 +1153,11 @@
 //   order(pizzaName, onSuccess, onError) {
 //     if(this.pizzas.includes(pizzaName)) {
 //       return onSuccess(pizzaName);
-//     } 
+//     }
 //       return onError(`There is no pizza with a name ${pizzaName} in the assortment.`);
 
 //   }
 // };
-
 
 // // --------------var-----2--------
 
@@ -1262,8 +1167,6 @@
 // //     return this.pizzas.includes(pizzaName) ? onSuccess(pizzaName) : onError(`There is no pizza with a name ${pizzaName} in the assortment.`);
 // //   },
 // // };
-
-
 
 // // Change code above this line
 
@@ -1341,12 +1244,9 @@
 //     }
 //   }
 
-
-
 //   // Change code above this line
 //   return filteredNumbers;
 // }
-
 
 // function filterArray1(numbers, value) {
 //   const filteredNumbers = [];
@@ -1406,7 +1306,6 @@
 
 // const arr1 = [1, 2, 3, 4, 5];
 
-
 // // let largest = arr1[0];
 // // for (let i = 1; i < arr1.length; i += 1) {
 // //   if  (largest < arr1[i]) {
@@ -1419,7 +1318,6 @@
 // console.log(largest);
 
 // --------------------------
-
 
 // const words = ["apple", "banana", "cherry", "date", "elderberry"];
 // // const filterWords = [];
@@ -1446,12 +1344,10 @@
 // console.log(filterWords);
 // -----------------------------------------------------------------------
 
-
 // function checkPass (password) {
 //   const ADMIN_PASS = "12345";
 //   return password == ADMIN_PASS ? "Welcome!" : "Access denied, wrong password!";
 // }
-
 
 // console.log(checkPass(12345));
 
@@ -1482,7 +1378,6 @@
 //   console.log(output || i);
 //   }
 // --------
-
 
 // ---мой вариант----
 // const width = prompt('add width : ');
@@ -1528,8 +1423,7 @@
 
 // let width = Number(prompt("Enter the width of the grid: "));
 // let height = Number(prompt("Enter the height of the grid: "));
-// let lineString = "#".repeat(width).split("").join(" "); 
-
+// let lineString = "#".repeat(width).split("").join(" ");
 
 // for ( let i = 0; i < height; i += 1) {
 
@@ -1699,13 +1593,12 @@
 //   const weightNew = Number(weight.replace(',', '.'));
 //   const heightNew = Number(height.replace(',', '.'));
 //   // return (weightNew / (heightNew * heightNew)).toFixed(1);
-//   // or --- 
+//   // or ---
 //   const result = weightNew / (heightNew * heightNew);
 //   return result.toFixed(1);
 // }
 
 // console.log(bmi); // 28.8
-
 
 // ------------------------
 
@@ -1741,15 +1634,11 @@
 //   console.log(`${digitHour}:${digiMinute}`);
 // }
 
-
-
 // console.log(formatTime(70)); // "01:10"
 // console.log(formatTime(450)); // "07:30"
 // console.log(formatTime(1441)); // "24:01"
 
-
 // -------------------------------
-
 
 // 9 - Напишіть функції для роботи з колекцією навчальних курсів courses:
 // /// addCourse(name) - додає курс до кінця колекції
@@ -1780,7 +1669,6 @@
 //   }
 //  }
 
-
 // addCourse('Express');
 // console.log(courses); // ['HTML', 'CSS', 'JavaScript', 'React', 'PostgreSQL', 'Express']
 // addCourse('CSS'); // 'Ви вже маєте такий курс'
@@ -1792,7 +1680,6 @@
 // updateCourse('Express', 'NestJS');
 // console.log(courses); // ['HTML', 'CSS', 'JavaScript', 'PostgreSQL', 'NestJS']
 // updateCourse('Express', 'NestJS');
-
 
 // ------------------------------------------------------
 
@@ -1820,8 +1707,7 @@
 // ({ type, nameF } = node);
 
 // console.log(type);      // "Identifier"
-// console.log(nameF); 
-
+// console.log(nameF);
 
 // ---------------------------------
 
@@ -1838,7 +1724,6 @@
 // console.table(dog.legs);
 // console.table(dog);
 
-
 // --------------------------------
 
 // // <input name="color" value="tomato" >
@@ -1846,7 +1731,7 @@
 // const inputValue = 'tomato';
 
 // const colorPickerData = {
-  // [inputName]: inputValue,   // {color: 'tomato'}
+// [inputName]: inputValue,   // {color: 'tomato'}
 // };
 
 // console.log(colorPickerData);
@@ -1895,7 +1780,6 @@
 // ];
 
 // console.table(friends);
-
 
 /*
  * Ищем друга по имени
@@ -1993,10 +1877,6 @@
 //   decreaseQuantity(productName) {},
 // };
 
-
-
-
-
 // cart.add({ name: '🍎', price: 50 });
 // cart.add({ name: '🍋', price: 60 });
 // cart.add({ name: '🍋', price: 60 });
@@ -2021,7 +1901,6 @@
 // console.log('Total: ', cart.countTotalPrice());
 
 // -----------------------------------------------
-
 
 // const apartment = {
 //   imgUrl: "https://via.placeholder.com/640x480",
@@ -2075,7 +1954,7 @@
 // -------------------------------------------
 
 // const newArr = [];
-// const dirtyMultiply = (array, value) => { 
+// const dirtyMultiply = (array, value) => {
 //   for (let i = 0; i < array.length; i += 1) {
 //     newArr[i] =(array[i] * value);
 //     // newArr.push(array[i] * value);
@@ -2224,7 +2103,6 @@
 //   }
 // ];
 
-
 // Дополни функцию getActiveUsers(users) так, чтобы она возвращала массив активных пользователей, значение свойства isActive которых true.
 
 // const getActiveUsers = (users) => {
@@ -2232,7 +2110,6 @@
 //   const getNameToArray = isActiveUsers.map( user => user.name);
 //   return getNameToArray;
 // };
-
 
 // const getActiveUsers = (users) =>  {
 //   return users.filter(user => user.isActive === true);
@@ -2367,7 +2244,7 @@
 // const eachElementInFirstIsEven = firstArray.every(isEven);
 // // -------------------------
 // // const eachElementInFirstIsOdd = firstArray.every(isOdd);
-// // или 
+// // или
 // const eachElementInFirstIsOdd = firstArray.every(value => !isEven(value));
 
 // const eachElementInSecondIsEven = secondArray.every(isEven);
@@ -2459,13 +2336,12 @@
 
 // -------------------------------------------
 
-
 // const firstArray = [26, 94, 36, 18];
 // const secondArray = [17, 61, 23];
 // const thirdArray = [17, 26, 94, 61, 36, 23, 18];
 // // Change below this line
 
-// const isEven = (value ) => value % 2 === 0; 
+// const isEven = (value ) => value % 2 === 0;
 
 // const anyElementInFirstIsEven = firstArray.some(isEven);
 // const anyElementInFirstIsOdd = firstArray.some(value => !isEven(value));
@@ -2520,8 +2396,6 @@
 //   { name: "Kiwi", playtime: 241, gamesPlayed: 1 },
 // ];
 // // Change code below this line
-
-
 
 // const totalAveragePlaytimePerGame = players.reduce((total, {playtime, gamesPlayed}) => {return total + playtime/gamesPlayed}, 0);
 
@@ -2595,7 +2469,7 @@
 //   }
 // ];
 
-// const calculateTotalBalance = users => { 
+// const calculateTotalBalance = users => {
 //   return users.reduce((acc, balance) => {return acc + balance.balance}, 0);
 // };
 
@@ -2825,7 +2699,6 @@
 
 // console.log(names);
 
-
 // // const names = books
 // // .filter(({ rating }) => rating > MIN_BOOK_RATING)
 // // .map(({ author }) => author)
@@ -2903,8 +2776,7 @@
 //   .sort((a, b) => a.friends.length - b.friends.length )
 //   .map(friend => friend.name)};
 
-
-//   const getNamesSortedByFriendCount = users => 
+//   const getNamesSortedByFriendCount = users =>
 //   [...users]
 //     .sort(({friends: {length: a}}, {friends: {length: b}}) => a - b)
 //     .map(({name}) => name);
@@ -2978,7 +2850,7 @@
 // ];
 
 //   const sortUsersByFriendCount = (a, b) => a.friends.length - b.friends.length;
-//   const getNamesSortedByFriendCount = users => 
+//   const getNamesSortedByFriendCount = users =>
 //     [...users]
 //       .sort(sortUsersByFriendCount)
 //       .map(user => user.name);
@@ -2993,7 +2865,6 @@
 // .flatMap(({ friends }) => friends)
 // .filter((friend, index, array) => array.indexOf(friend) === index)
 // .sort((a, b) => a.localeCompare(b));
-
 
 // console.log(getSortedFriends(users));
 
@@ -3067,11 +2938,10 @@
 //   }
 // ];
 
-// const getTotalBalanceByGender = (users, gender) => 
+// const getTotalBalanceByGender = (users, gender) =>
 // [...users]
 // .filter(user => user.gender === gender)
 // .reduce((acc, user) => acc + user.balance, 0);
-  
 
 //   console.log(getTotalBalanceByGender(users, "male"));
 //   // 12053
@@ -3094,7 +2964,7 @@
 //     }
 //     return null;
 //   }
-    
+
 //   // Change code above this line
 // }
 // console.table(getProductPrice("Droid"));
@@ -3108,12 +2978,12 @@
 //     { email: "jacob@hotmail.com", dish: "Taco" },
 //   ],
 //   // Change code below this line
-  // getOrdersLog() {
-  //   return this
-  //   .orders
-  //   .map(order => `email: ${order.email} dish: ${order.dish}`)
-  //   .join(" - ");
-  // },
+// getOrdersLog() {
+//   return this
+//   .orders
+//   .map(order => `email: ${order.email} dish: ${order.dish}`)
+//   .join(" - ");
+// },
 //   getEmails() {
 //     const emails = this.orders.map(order => order.email);
 //     const uniqueEmails = new Set(emails);
@@ -3125,7 +2995,6 @@
 //   },
 //   // Change code above this line
 // };
-
 
 // console.log(historyService.getOrdersLog());
 // возвращает строку с перечислением данных всех заказов из свойства orders
@@ -3142,7 +3011,6 @@
 // [{ email: "artemis@coldmail.net", dish: "Pizza" }]
 
 // -------------------------------------------
-
 
 // class StringBuilder {
 //   constructor(initialValue = '') {
@@ -3170,7 +3038,6 @@
 // console.log(builder.padEnd(' end').getValue()); // 'initial end'
 // console.log(builder.padStart('start ').getValue()); // 'start initial end'
 // console.log(builder.padBoth('both ').getValue()); // 'both start initial end both'
-
 
 // -------------------------------------------
 
@@ -3284,7 +3151,6 @@
 // --------------------------------------
 // --------------------THIS------------------
 
-
 // const person = {
 //   name: "John",
 //   lastName : "Doe",
@@ -3374,7 +3240,6 @@
 // // person.logInfo.call(ina, 'accounting', '0380111222333');
 // // person.logInfo.apply(ina, ['accounting', '0380111222333']);
 
-
 // //  ////////===== другая задачка =================
 
 // // вариант 1 задачки
@@ -3388,7 +3253,6 @@
 // // console.log(multiBy(array, 15));
 
 // // вариант 2 задачки
-
 
 // Array.prototype.multiBy = function (n) {
 //   console.log('multiBy this is :', this);
@@ -3425,12 +3289,11 @@
 // console.log('НОВЬІЙ МАССИВ:', suma);
 
 // // ЧТОБ ФУНКЦИЯ map работала правильно нужно чтоб CALLBACK ВЕРНУЛ НАМ ЧТОТО:
-// //  СРАВНИТЕ ЄТИ ФУНКЦИИ НИЖЕ: 
+// //  СРАВНИТЕ ЄТИ ФУНКЦИИ НИЖЕ:
 
 // // let suma = numbers.map(function(value, index, array){
 // //   array[index] = value * value;
 // // });
-
 
 // console.log('НАШ ПЕРВОНОЧАЛЬНЬІЙ МАССИВ:', numbers);
 
@@ -3442,13 +3305,11 @@
 // console.log('НАШ ПЕРВОНОЧАЛЬНЬІЙ МАССИВ:', numbers);
 // console.log('НАШ НОВЬІЙ МАССИВ:', suma);
 
-
 // const numbers = [1, 2, 3];
 
 // console.log('НОВЬІЙ МАСИВ МАП БЕЗ ФУНКЦИИ: ', numbers.map());
 // const result = numbers.map();
 // console.log('НОВЬІЙ МАСИВ МАП БЕЗ ФУНКЦИИ: ', result );
-
 
 // -------------------------------------
 // const input1 = [0, 4, 6, 8, 8, 8, 5, 5, 7]; // 2
@@ -3476,11 +3337,10 @@
 //   return input[0];
 // }
 
-
 // function setReducer(input) {
 //   const newInput = [];
 //   let numberOfRepetitions = 1;
-  
+
 //   for (let i= 0; i < input.length; i += 1) {
 //     if (input[i] === input[i + 1]) {
 //       numberOfRepetitions += 1;
@@ -3488,18 +3348,13 @@
 //       newInput.push(numberOfRepetitions);
 //       numberOfRepetitions = 1;
 //     }
-//   } 
+//   }
 // //  return newInput;
 
 //  return newInput.length === 1 ? newInput[0] : setReducer(newInput);
 // }
 
-
-
 // console.log(setReducer(setReducer(setReducer(setReducer(setReducer(input1))))));
-
-
-
 
 // function setReducer(input) {
 //   let newInput = [];
@@ -3516,12 +3371,8 @@
 //   return newInput.length === 1 ? newInput[0] : setReducer(result);
 // }
 
-
-
-
 // console.log(setReducer(input1));//(6) [1, 1, 1, 3, 2, 1]
 // console.log(setReducer(input2));// (9) [1, 1, 3, 1, 1, 1, 1, 1, 1]
-
 
 // console.log(setReducer(setReducer(input1)));  // [3, 1, 1, 1]
 // console.log(setReducer(setReducer(input2)));   // [2, 1, 6]
@@ -3532,11 +3383,6 @@
 // console.log(setReducer(setReducer(setReducer(setReducer(setReducer(input1)))))); // [2]
 // console.log(setReducer(setReducer(setReducer(setReducer(setReducer(input2)))))); // [1]
 
-
-
-
-
-
 // --------------------------
 // const input1 = [0, 4, 6, 8, 8, 8, 5, 5, 7]; // 2
 // const input2 = [9, 4, 1, 1, 1, 2, 3, 9, 4, 6, 2];//3
@@ -3544,7 +3390,7 @@
 //  function setReducer(input) {
 //     const newInput = [];
 //     let numberOfRepetitions = 1;
-    
+
 //     for (let i= 0; i < input.length; i += 1) {
 //       if (input[i] === input[i + 1]) {
 //         numberOfRepetitions += 1;
@@ -3552,11 +3398,11 @@
 //         newInput.push(numberOfRepetitions);
 //         numberOfRepetitions = 1;
 //       }
-//     } 
+//     }
 //   //  return newInput;
-  
+
 //    return newInput.length === 1 ? newInput[0] : setReducer(newInput);
-//   } 
+//   }
 
 // // function setReducer(input) {
 // //   let newInput = [];
@@ -3644,16 +3490,16 @@
 
 // const Car = function (config = {}) {
 //   const { brand, model, price } = config;
-  // 2. Функция вызывается в контексте созданного объекта,
-  //    то есть в this записывается ссылка на него
-  // this.brand = brand;
-  // this.model = model;
-  // this.price = price;
+// 2. Функция вызывается в контексте созданного объекта,
+//    то есть в this записывается ссылка на него
+// this.brand = brand;
+// this.model = model;
+// this.price = price;
 
-  // 3. В свойство this.__proto__ записывается ссылка на обьект Car.prototype
-  //    тоесть Car.prototype это ПРОТОТИП будущего обьекта (экземпляра)
+// 3. В свойство this.__proto__ записывается ссылка на обьект Car.prototype
+//    тоесть Car.prototype это ПРОТОТИП будущего обьекта (экземпляра)
 
-  // 4. Ссылка на обьект возвращается в место вызова new Car
+// 4. Ссылка на обьект возвращается в место вызова new Car
 // };
 
 // Car.prototype.sayHi = function () {
@@ -3737,13 +3583,9 @@
 
 // ----------------------------
 
+/** *? Напиши функцію конструктор User для *? створення користувача з такими властивостями: *? a. userName - ім'я, рядок *? b. age - вік, число *? c. numbersOfPost - кількість постів, число *? d. клас очікує 1 параметр - об'єкт налаштувань з однойменними властивостями *? Додай метод getInfo(), який повертає рядок: *? `Користувачеві ${ім'я} ${вік} років і в нього ${кількістьПублікацій} публікацій.` */
 
-/** *? Напиши функцію конструктор User для *? створення користувача з такими властивостями: *? a. userName - ім'я, рядок *? b. age - вік, число *? c. numbersOfPost - кількість постів, число *? d. клас очікує 1 параметр - об'єкт налаштувань з однойменними властивостями *? Додай метод getInfo(), який повертає рядок: *? `Користувачеві ${ім'я} ${вік} років і в нього ${кількістьПублікацій} публікацій.` */ 
-
-
-//TODO:============================================= /** *? Напиши функцію конструктор Storage який створює об'єкти *? Для управління складом товарів. *? При виклику отримуватиме один агрумент - початковий масив товарів, *? і записувати їх у властивість items. *? Додай методи класу: *? getItems() - повертайте масив товарів *? addItems(item) - отримує новий товар та додає його до поточних *? removeItem(item) - отримує товар і, якщо він є, видаляє його з поточних */ 
-
-
+//TODO:============================================= /** *? Напиши функцію конструктор Storage який створює об'єкти *? Для управління складом товарів. *? При виклику отримуватиме один агрумент - початковий масив товарів, *? і записувати їх у властивість items. *? Додай методи класу: *? getItems() - повертайте масив товарів *? addItems(item) - отримує новий товар та додає його до поточних *? removeItem(item) - отримує товар і, якщо він є, видаляє його з поточних */
 
 // ----------------------------------------------------------
 // const markup = `<div class="container">
@@ -3771,7 +3613,6 @@
 // };
 // form.addEventListener('change', recalculateTotal);
 
-
 // -----------------------------------------------------------
 
 //// 2. Створити гелерею з картинок використовуючи масив
@@ -3782,7 +3623,7 @@
 // const images = [
 // 	{
 // 		"title": "Коник стрибунець",
-// 		"src": "https://cdn.pixabay.com/photo/2022/11/07/00/27/grasshopper-7575278_1280.jpg" 
+// 		"src": "https://cdn.pixabay.com/photo/2022/11/07/00/27/grasshopper-7575278_1280.jpg"
 // 	},
 // 	{
 // 		"title": "Фрукт",
@@ -3794,7 +3635,7 @@
 // 	},
 // 	{
 // 		"title": "Годиник",
-// 		"src": "https://cdn.pixabay.com/photo/2022/11/06/13/36/architecture-7574031_1280.jpg" 
+// 		"src": "https://cdn.pixabay.com/photo/2022/11/06/13/36/architecture-7574031_1280.jpg"
 // 	},
 // 	{
 // 		"title": "Метро",
@@ -3811,7 +3652,6 @@
 // const modalTitle = document.querySelector('.modal-title');
 // const closeBtn = document.querySelector('.close');
 // const imageElements = [];
-
 
 // // Fill gallery with images from the array
 // images.forEach((imageElement) => {
@@ -3841,7 +3681,6 @@
 //   }
 // });
 
-
 // -----------------------------------------------
 
 // // time constants:
@@ -3849,7 +3688,6 @@
 // const secondsInMin = 60;
 // const minsInHour = 60;
 // const hoursInDay = 24;
-
 
 // const timer = (targetDate) => {
 //   setInterval(() => {
@@ -3889,8 +3727,6 @@
 // console.log(counter++);
 // console.log(++counter);
 
-
-
 // window.addEventListener('resize', _trottle(resizeHandler, 300));
 
 // function resizeHandler () {
@@ -3923,7 +3759,7 @@
 
 // // Змініть код лише під цим рядком
 // function updateRecords(records, id, prop, value) {
- 
+
 //   if(prop !== 'tracks' && value !== '') {
 //     records[id][prop] = value;
 //     return records;
@@ -3941,7 +3777,7 @@
 //     delete records[id][prop];
 //     return records;
 //   }
-  
+
 // }
 
 // updateRecords(recordCollection, 5439, "tracks", "Take a Chance on Me");
@@ -3950,11 +3786,404 @@
 
 // --------------------------------------------
 // const list = ['banana'];
-// function addToList(item, list) {
-//   return list.push(item);
+// function addToList(item, array) {
+//   return array.push(item);
 // }
+// addToList('apple', list);
+
 // const result = addToList("apple",list);
 // console.log(result);
 // console.log(list);
 
 // --------------------------------------
+
+// // Setup
+// const myArr = [2, 3, 4, 5, 6];
+
+// // Only change code below this line
+// let total = 0;
+//  for(let i = 0; i < myArr.length; i += 1) {
+//    total += myArr[i];
+//  }
+// console.log(total);
+
+// =========================================
+
+// function multiplyAll(arr) {
+//   let product = 1;
+//   // Only change code below this line
+//   for (let i = 0; i < arr.length; i += 1) {
+//     for (let j = 0; j < arr[i].length; j += 1) {
+//       product *= arr[i][j];
+//     }
+//   }
+//   // Only change code above this line
+//   return product;
+// }
+
+// multiplyAll([
+//   [1, 2],
+//   [3, 4],
+//   [5, 6, 7],
+// ]);
+
+// console.log(
+//   multiplyAll([
+//     [1, 2],
+//     [3, 4],
+//     [5, 6, 7],
+//   ]),
+// );
+
+// ==============================================
+
+//  function multiply(arr, n) {
+//    let product = 1;
+//    for (let i = 0; i < n; i++) {
+//      product *= arr[i];
+//    }
+//    return product;
+//  }
+
+// function multiply(arr, n) {
+//   let product = 1;
+//   for (let i = 0; i < Math.min(n, arr.length); i++) {
+//     product *= arr[i];
+//   }
+//   return product;
+// // }
+// const arr1 = [3, 4, 5];
+// // console.log(multiply(arr1, 5));
+
+// function multiplied(arr) {
+//   const n = arr.length;
+//   // если n меньше или равно 0, то возвращаем 1 (базовый случай)
+//   if (n <= 0) {
+//     console.log(`multiplied([], n =  ${n}) = 1`);
+//     return 1;
+//   } else {
+//     // получаем произведение элементов массива arr до n-1-го элемента
+//     // (это делается рекурсивным вызовом функции multiplied)
+//     const product = multiplied(arr.slice(0, n - 1));
+//     console.log(product);
+//     // умножаем произведение на n-й элемент массива arr
+//     const result = product * arr[n - 1];
+//     console.log(`multiplied(${arr.slice(0, n)}, n = ${n}) = ${result}`);
+//     return result;
+//   }
+// }
+
+// const arr2 = [1, 2, 3, 4, 5];
+
+// console.log(multiplied(arr2)); // выведет результат и все шаги рекурсии
+
+// arr.slice(0, n - 1) - это метод массива slice(), который возвращает новый массив, содержащий элементы arr от индекса 0 (включительно) до индекса n - 1 (исключая).
+
+// В нашем случае n равно длине массива arr, поэтому arr.slice(0, n - 1) вернет новый массив, содержащий все элементы arr, кроме последнего элемента. Затем мы умножаем этот новый массив на последний элемент и получаем произведение всех элементов.
+
+// Например, если arr равен [2, 4, 6, 8], то arr.slice(0, n - 1) вернет [2, 4, 6], а произведение всех элементов массива arr будет равно 2 * 4 * 6 * 8 = 384.
+
+// function multiplied(arr, n) {
+//   const limit = Math.min(n, arr.length);
+//   if (limit === 0) {
+//     console.log(`multiplied([], limit = ${limit}, n=${n}) = 1`);
+//     return 1;
+//   }
+//   const product = multiplied(arr.slice(0, limit - 1), limit - 1);
+//   const result = product * arr[limit - 1];
+//   console.log(
+//     `multiplied(${JSON.stringify(
+//       arr.slice(0, limit),function sum(arr, n) {
+// Only change code below this line
+// if (n <= 0) {
+//   return 1;
+// } else {
+//   return sum(arr, n -1) + arr[n - 1]
+// }
+// Only change code above this line
+// }
+
+// const arr1 = [ 1, 2, 3, 4, 5];
+
+// console.log(sum(arr1, 5));
+// }
+// const arr2 = [1, 2, 3, 4, 5];
+// console.log(multiplied(arr2, 6)); // expected output: 120
+// ===========================================
+// function multiplied(arr, n) {
+//   const limit = Math.min(n, arr.length);
+//   console.log(
+//     `multiplied(${JSON.stringify(
+//       arr.slice(0, limit),
+//     )}), limit = ${limit})`,
+//   );
+
+//   // если limit меньше или равно 0, то возвращаем 1 (базовый случай)
+//   if (limit <= 0) {
+//     console.log('дошли до нуля');
+//     console.log(`multiplied([], limit = ${limit})`);
+//     return 1;
+//   } else {
+//     // получаем произведение элементов массива arr до limit-1-го элемента
+//     // (это делается рекурсивным вызовом функции multiplied)
+//     const product = multiplied(arr.slice(0, limit - 1), n);
+//     // умножаем произведение на limit-й элемент массива arr
+//     const result = product * arr[limit - 1];
+//     console.log(
+//       `multiplied(${JSON.stringify(
+//         arr.slice(0, limit),
+//       )}, limit = ${limit}) = ${result}`,
+//     );
+//     return result;
+//   }
+// }
+
+// const arr1 = [1, 2, 3, 4, 5];
+// console.log(multiplied(arr1, 6));
+
+// =====================================
+
+
+// function factorial(n) {
+//   console.log('n = ', n);
+//   if
+//     (n === 0) {
+//     console.log(`n === 0, "return 1",  0*${n} , `);
+//     // базовый случай
+//     return 1;
+//   } else
+//   {
+//     // рекурсивный случай
+//     const result = factorial(n - 1) * n;
+//     console.log(`${n}   ${n - 1}*${n} `, 'result = ', result);
+//     return result;
+//   }
+// }
+// const f = 5;
+// console.log(`factorial ${f} = `, factorial(f));
+
+// =================================
+
+// function sum(arr, n) {
+//   console.log('n = ', n, 'put on stack');
+//   // Only change code below this line
+//   if (n <= 0) {
+//     return 1;
+//   } else {
+//     const result = sum(arr, n - 1) + arr[n - 1];
+//     console.log(`(result on n = ${n}) = ${result}, and out from stack`);
+//     return result;
+//   }
+
+//   // Only change code above this line
+// }
+
+// const arr1 = [1, 2, 3, 4, 5];
+
+// console.log('result = ', sum(arr1, 5));
+
+// =================================================
+
+// function sum(arr, n) {
+//   console.log('n = ', n, 'put on stack');
+//   // Only change code below this line
+//   if (n <= 0 || n > arr.length) {
+//     return 0;
+//   } else {
+//     const result = sum(arr, n - 1) + arr[n - 1];
+//     console.log(
+//       `(result on n = ${n}) = ${result} and index = ${n - 1}, and out from stack`,
+//     );
+//     return result;
+//   }
+
+//   // Only change code above this line
+// }
+
+// const arr1 = [1, 20, 3, 4, 5];
+
+// console.log('result = ', sum(arr1, 4));
+
+// ======================================
+
+// const myArray = [1, 2, 3, 4, 5];
+// myArray[myArray.length] = 'Serghei';
+// console.log(myArray);
+// myArray.push("Siracenco");
+// console.log(myArray);
+// const removedElement = myArray.pop();
+// const removedElement2 = myArray.pop();
+// console.log('removedElement = ', removedElement);
+// console.log('removedElement2 = ', removedElement2);
+// console.log(myArray);
+
+
+// const myArray = [1, 2, 3, 4, 5];
+
+// myArray.forEach(el => console.log(el * 2));
+// console.log(myArray);
+
+// const newArray = myArray.map(el => el * 2);
+// console.log(myArray);
+// console.log(newArray);
+
+// ================================
+//    DESTRUCTURING
+
+// const userProfile = {
+//   name: 'Bogdan',
+//   commentQty: 23,
+//   hasSignedAgreement: false,
+// }
+
+// const { name, commentQty } = userProfile;
+// const { hasSignedAgreement } = userProfile;
+
+// console.log(name, commentQty, hasSignedAgreement);
+// // -----------------------------------------------
+// const fruits = ['apple', 'banana'];
+
+// const [fruitOne, fruitTwo] = fruits;
+
+// console.log(fruitOne, fruitTwo);
+
+// ------------------------------------
+// const userProfile = {
+//   name: 'Bogdan',
+//   commentQty: 23,
+//   hasSignedAgreement: false,
+// };
+
+// const userInfo = ({ name, commentQty }) => {
+//   if (!commentQty) {
+//     return`User ${name} has no comments`
+//   }
+//   return `User ${name} has ${commentQty} comments.`
+// }
+
+// userInfo(userProfile);
+// console.log(userInfo(userProfile));
+
+
+// =================================
+
+// const age = 25; 
+// const value1 = -11
+
+// age && value1
+//   ? console.log('isTrue')
+//   : console.log('isFalse')
+
+// console.log(value1 >= 0 ? value1 : -value1)
+
+// const result = value1 >= 0 ? value1 : - value1
+// console.log(result);
+
+// ======================================
+
+// const userProfile = {
+//   name: 'Bogdan',
+//   commentQty: 23,
+//   hasSignedAgreement: false,
+// };
+// for (key in userProfile) {
+//   console.log(key, userProfile[key]);
+// }
+// Object.keys(userProfile).forEach(key => console.log(key, userProfile[key]));
+// Object.values(userProfile).forEach(value => console.log(value));
+// Object.entries(userProfile).forEach(entry => console.log(entry));
+
+// ===========================================
+
+// const userProfile = {
+//   name: 'Bogdan',
+//   commentQty: 23,
+//   hasSignedAgreement: false,
+// };
+
+// const myArray = [true, 10, 'abc', null];
+
+// const myString = 'Hey';
+
+// for (const letter of myString) {
+//   console.log(letter);
+// }
+
+// for (const element of myArray) {
+//   console.log(element);
+// }
+
+// for (const key in userProfile) {
+//   console.log(key);
+//   console.log(userProfile[key]);
+// }
+// ===============================
+
+
+// class Comment {
+//     constructor(text) {
+//         this.text = text
+//         this.votesQty = 0
+//     }
+//     upVote() {
+//         this.votesQty += 1
+//     }
+//     downVote() {
+//         this.votesQty -= 1
+//     }
+// }
+ 
+// const firstComment = new Comment('First comment');
+
+// console.log(firstComment);
+// console.log(firstComment instanceof Comment);
+// console.log(firstComment instanceof Object);
+
+// firstComment.upVote();
+// console.log(firstComment);
+// console.log(firstComment.votesQty);
+
+// firstComment.downVote();
+// console.log(firstComment);
+// console.log(firstComment.votesQty);
+
+
+// console.log(firstComment.hasOwnProperty('text'));
+// console.log(firstComment.hasOwnProperty('upVote'));
+
+// ===========================================
+
+// class Comment {
+//   constructor(text) {
+//     this.text = text;
+//     this.votesQty = 0;
+//   }
+//   upVote() {
+//     this.votesQty += 1;
+//   }
+//   downVote() {
+//     this.votesQty -= 1;
+//   }
+//     static mergeComments(first, second) {
+//         return `${first} ${second}`
+//     }
+// }
+// console.log(Comment);
+// console.dir(Comment.prototype);
+
+// const myComment = new Comment('awesome comment');
+// console.log(myComment);
+// console.dir(myComment.prototype);
+
+// =========================================
+
+// class NumbersArray extends Array {
+//     sum() {
+//         return this.reduce((el,acc) => acc += el, 0)
+//     }
+// }
+
+// const myArray = new NumbersArray(2, 5, 7);
+
+// console.log('myArray', myArray);
+// console.log(myArray.sum());
