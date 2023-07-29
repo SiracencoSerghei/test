@@ -4187,3 +4187,86 @@
 
 // console.log('myArray', myArray);
 // console.log(myArray.sum());
+
+//===========================================================
+
+function findNextSmallerNumber(num) {
+  console.log('num', num)
+  const numStr = String(num);
+  const digits = numStr.split('').map(Number);
+  const originalLength = digits.length; // Запоминаем длину исходного числа
+
+  let toChangeNumberIndex = -1;
+
+  // Находим индекс цифры, с которой начинается убывающая последовательность
+  for (let i = digits.length - 1; i > 0; i--) {
+    if (digits[i] < digits[i - 1]) {
+      toChangeNumberIndex = i - 1;
+      break;
+    }
+  }
+
+  // Если убывающая последовательность не найдена, число уже наименьшее возможное
+  if (toChangeNumberIndex === -1) {
+    return num;
+  }
+
+  // Находим наибольшую цифру, которая меньше цифры на найденной позиции
+  let changedWithNumberIndex = -1;
+  for (let i = digits.length - 1; i >= 0; i--) {
+    if (digits[i] < digits[toChangeNumberIndex]) {
+      changedWithNumberIndex = i;
+      break;
+    }
+  }
+
+  // Если наибольшая меньшая цифра не найдена, меняем местами с последней цифрой
+  if (changedWithNumberIndex === -1) {
+    changedWithNumberIndex = digits.length - 1;
+  }
+
+  // Меняем найденные цифры местами
+  [digits[toChangeNumberIndex], digits[changedWithNumberIndex]] = [digits[changedWithNumberIndex], digits[toChangeNumberIndex]];
+
+  // Сортируем цифры, начиная с позиции +1, в порядке убывания
+  const rightPart = digits.splice(toChangeNumberIndex + 1);
+  rightPart.sort((a, b) => b - a);
+
+  // Дополняем результат нулями в начале, если нужно, чтобы сохранить ведущие нули
+  const paddedDigits = digits.join('').padStart(originalLength - rightPart.length, '0');
+
+  // Собираем массив цифр обратно в число и возвращаем результат
+  const result = [...paddedDigits, ...rightPart].join('');
+  return result;
+}
+
+
+
+// Примеры использования:
+console.log(findNextSmallerNumber(1001));     // Output: 01100
+console.log('=======================================')
+console.log('result :', findNextSmallerNumber(28706005446)); // Output: 28706004654
+console.log('=======================================')
+console.log(findNextSmallerNumber(3234547));     // Output: 3234754
+console.log('=======================================')
+console.log(findNextSmallerNumber(5001)); // 1500
+
+
+
+// const nextSmaller = n => {
+//   console.log('n       ', n       )
+//   let min = minify(n);
+//   while (--n >= min) if (minify(n) === min) return n;
+//   return -1;
+// };
+
+// const minify = n => [...`${n}`].sort().join``.replace(/^(0+)([1-9])/, '$2$1');
+
+// // Примеры использования:
+// console.log('result :', nextSmaller(1001));     // Output: 01100
+// console.log('=======================================')
+// console.log('result :', nextSmaller(28706005446)); // Output: 28706004654
+// console.log('=======================================')
+// console.log('result :', nextSmaller(3234547));     // Output: 3234754
+// console.log('=======================================')
+// console.log('result :', nextSmaller(5001)); // 1500
