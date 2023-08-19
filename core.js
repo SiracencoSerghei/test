@@ -840,3 +840,52 @@
 
 // ===============================================
 
+// document.addEventListener('load', () => console.log('DOM load'))
+document.addEventListener('DOMContentLoaded', () => {
+  console.log('DOM fully loaded and parsed');
+
+  const makePokemonURL = (pokemonIndex) => {
+    return `https://pokeapi.co/api/v2/pokemon/${pokemonIndex}`;
+  }
+
+  const pokemonIndices = [1, 10, 12, 45, 64, 78, 3, 21];
+
+  const pokemonList = pokemonIndices.map(index => makePokemonURL(index));
+
+  const getPokemon = async (pokemonUrl) => fetch(pokemonUrl).then(res => res.json());
+
+  const showPokemonAsync = async (pokemon) => {
+    const body = document.querySelector('body');
+    const image = document.createElement('img');
+    image.src = pokemon.sprites.front_default;
+
+    await new Promise((resolve, reject) => {
+      image.onload = resolve;
+      image.onerror = reject;
+    });
+
+    body.appendChild(image);
+  };
+
+  (async () => {
+    const requestsList = [...pokemonList];
+    const getNextPokemon = async (requestsList) => {
+      if (!requestsList.length) {
+        console.log('Done');
+        return;
+      }
+      const batchSize = 3;
+      const currReqList = requestsList.slice(0, batchSize);
+      const pokemonsToRender = await Promise.all(currReqList.map(url => getPokemon(url)));
+
+      const promiseList = pokemonsToRender.map(pokemon => showPokemonAsync(pokemon));
+
+      await Promise.all(promiseList);
+
+      const nextReqList = requestsList.slice(batchSize);
+      await getNextPokemon(nextReqList);
+    }
+
+    await getNextPokemon(requestsList);
+  })();
+});
