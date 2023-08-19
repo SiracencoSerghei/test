@@ -783,41 +783,60 @@
 
 //=======================
 
-const makePokemonURL = (pokemonIndex) => {
-  return `https://pokeapi.co/api/v2/pokemon/${pokemonIndex}`
-}
+// const makePokemonURL = (pokemonIndex) => {
+//   return `https://pokeapi.co/api/v2/pokemon/${pokemonIndex}`
+// }
 
-const pokemonIndices = [1, 10, 12, 45, 64, 78, 3, 21];
+// const pokemonIndices = [1, 10, 12, 45, 64, 78, 3, 21];
 
-const pokemonList = pokemonIndices.map(index => makePokemonURL(index));
+// const pokemonList = pokemonIndices.map(index => makePokemonURL(index));
 
-const getPokemon = async (pokemonUrl) => fetch(pokemonUrl).then(res => res.json())
+// const getPokemon = async (pokemonUrl) => fetch(pokemonUrl).then(res => res.json())
 
-const showPokemon = pokemon => {
-  const body = document.querySelector('body')
-  const image = document.createElement('img')
-  image.src = pokemon.sprites.front_default
+// const showPokemon = pokemon => {
+//   const body = document.querySelector('body')
+//   const image = document.createElement('img')
+//   image.src = pokemon.sprites.front_default  // Promise.all
+//   // image.src = pokemon.value.sprites.front_default  // Promise.allSettled
 
-  body.appendChild(image)
-}
-(()=>{
-  const requestsList = [...pokemonList]
-  const getNextPokemon = async(requestsList) => {
+//   body.appendChild(image)
+// }
 
-    if(!requestsList.length) {
-      console.log('Done')
-      return
-    }
-    await Promise.allSettled()
+// (async () => {
+//   const requestsList = [...pokemonList];
 
-    const pokemonURL = requestsList[0];
+//   const getNextPokemon = async (requestsList) => {
+//     if (!requestsList.length) {
+//       console.log('Done');
+//       return;
+//     }
+//     const currReqList = requestsList.slice(0, 3);
+//     const pokemonsToRender = await Promise.all(currReqList.map(url => getPokemon(url)));
+//     pokemonsToRender.forEach(pokemon => showPokemon(pokemon));
 
-    const pokemonToRender = await getPokemon(pokemonURL)
-    showPokemon(pokemonToRender)
+//     const nextRqList = requestsList.slice(3);
+//     await getNextPokemon(nextRqList);
+//   };
+//   await getNextPokemon(requestsList);
+// })();
 
-    const nextRqList = requestsList.slice(3)
-    getNextPokemon(nextRqList)
+// // (()=>{
+// //   const requestsList = [...pokemonList]
+// //   const getNextPokemon = async(requestsList) => {
 
-  }
-  getNextPokemon(requestsList)
-})()
+// //     if(!requestsList.length) {
+// //       console.log('Done')
+// //       return
+// //     }
+// //     const currReqList = requestsList.slice(0, 3);
+// //     const pokemonsToRender = await Promise.allSettled(currReqList.map(url => getPokemon(url)))
+// //     .then(pokemonToRender => (pokemonToRender.forEach(pokemon => showPokemon(pokemon))))
+
+// //     const nextReqList = requestsList.slice(3)
+// //     getNextPokemon(nextReqList)
+// //   }
+// //   getNextPokemon(requestsList)
+// // })()
+
+// ===============================================
+
