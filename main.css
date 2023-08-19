@@ -147,3 +147,16 @@ input {
   height: auto;
   margin-top: 20px;
 }
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper{
+  margin: 20px;
+}
+
+.img {
+  height: 100px;
+  width: auto;
+}
