@@ -857,7 +857,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const showPokemonAsync = async (pokemon) => {
     const body = document.querySelector('body');
     const image = document.createElement('img');
-    image.src = pokemon.sprites.front_default;
+    image.src = pokemon.value.sprites.front_default;
 
     await new Promise((resolve, reject) => {
       image.onload = resolve;
@@ -876,7 +876,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
       const batchSize = 3;
       const currReqList = requestsList.slice(0, batchSize);
-      const pokemonsToRender = await Promise.all(currReqList.map(url => getPokemon(url)));
+      const pokemonsToRender = await Promise.allSettled(currReqList.map(url => getPokemon(url)));
 
       const promiseList = pokemonsToRender.map(pokemon => showPokemonAsync(pokemon));
 
